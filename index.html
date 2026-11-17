@@ -76,7 +76,7 @@
 </head>
 <body class="font-sans antialiased selection:bg-amber-500/30 selection:text-amber-100">
 
-  <!-- Toast Notification (Custom feedback instead of alert) -->
+  <!-- Toast Notification -->
   <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none opacity-0 transition-all duration-300 translate-y-3">
     <div class="bg-[#18181f] border border-amber-400/50 text-amber-100 px-5 py-3 rounded-full shadow-2xl text-xs sm:text-sm tracking-wide flex items-center gap-2.5">
       <svg class="w-4 h-4 text-amber-400 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -120,7 +120,6 @@
 
   <!-- HERO SECTION -->
   <section id="top" class="relative min-h-screen flex flex-col items-center justify-center text-center px-4 sm:px-6 pt-28 pb-16 candle-glow">
-    <!-- Subtle Decorative Corner Frame -->
     <div class="max-w-3xl w-full mx-auto relative py-10 sm:py-14 px-5 sm:px-10 rounded-3xl border hairline-gold bg-[#0c0c10]/60 shadow-2xl">
       
       <!-- Intimate Celebration Badge -->
@@ -208,7 +207,7 @@
         You are receiving this page because you mean the world to us. To celebrate five years of marriage, we have reserved the candlelit Private Dining Room at Osteria Via Stato for an intimate, cozy evening shared exclusively with our closest circle of family and friends.
       </p>
 
-      <!-- Couple Photo Showcase (Upload photo1.jpg and photo2.jpg to the same GitHub folder as index.html) -->
+      <!-- Couple Photo Showcase -->
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
         <!-- Photo 1: All-Black Evening Look -->
         <figure class="group relative overflow-hidden rounded-2xl border hairline-gold bg-[#0c0c10] shadow-xl">
@@ -321,7 +320,6 @@
       <div class="card-glass border hairline-gold rounded-3xl p-7 sm:p-9 flex flex-col justify-between">
         <div>
           <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-400/30 flex items-center justify-center text-amber-300 mb-6">
-            <!-- Phone Off / Unplugged Icon -->
             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 3l18 18" />
@@ -408,37 +406,49 @@
   <section id="menu" class="max-w-5xl mx-auto px-4 sm:px-6 py-14 reveal">
     <div class="text-center mb-12">
       <span class="text-[11px] uppercase tracking-[0.3em] text-amber-400 font-medium">
-        Osteria Via Stato &bull; Italian Dinner
+        Osteria Via Stato &bull; The Italian Feast
       </span>
       <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2">
         Dinner &amp; Refreshments
       </h2>
       <p class="text-zinc-400 text-sm mt-2 max-w-xl mx-auto">
-        Enjoy an authentic multi-course Italian dinner prepared fresh by the Osteria Via Stato kitchen. Dinner orders will be taken tableside immediately following our vows.
+        Enjoy a multi-course Italian dinner featuring family-style starters and pasta followed by your personal choice of entrée, ordered tableside.
       </p>
     </div>
 
     <div class="card-glass border hairline-gold rounded-3xl p-7 sm:p-12 shadow-2xl">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         
-        <!-- Left Column: First Courses & Bar -->
+        <!-- Left Column: Starters, Pasta & Dessert -->
         <div class="space-y-8">
           <div>
             <h3 class="font-serif text-2xl text-amber-200 border-b hairline-gold pb-2 mb-4">
-              To Begin
+              Family-Style Courses
             </h3>
-            <ul class="space-y-3.5 text-sm">
+            <ul class="space-y-4 text-sm">
               <li>
-                <p class="font-medium text-white">Celebration Toast</p>
-                <p class="text-xs text-zinc-400 mt-0.5">Raising a glass to five years of marriage</p>
+                <p class="font-medium text-white">At the Table</p>
+                <p class="text-xs text-zinc-400 mt-0.5 leading-relaxed">
+                  Salt-Crusted Ciabatta Bread, Roasted Garlic with Aged Balsamic &amp; Grana with Local Honey
+                </p>
               </li>
               <li>
-                <p class="font-medium text-white">Artisanal Bread &amp; Seasonal Antipasti</p>
-                <p class="text-xs text-zinc-400 mt-0.5">Chef's Italian starters &amp; fresh house salads served family-style</p>
+                <p class="font-medium text-white">Antipasti</p>
+                <p class="text-xs text-zinc-400 mt-0.5 leading-relaxed">
+                  Seasonal Vegetable Farro Salad, Classic Caesar Salad with Garlic Croutons &amp; Marinated Gigante Beans
+                </p>
               </li>
               <li>
-                <p class="font-medium text-white">Open Bar &amp; Curated Cocktails</p>
-                <p class="text-xs text-zinc-400 mt-0.5">Full bar service available for the evening</p>
+                <p class="font-medium text-white">Primi</p>
+                <p class="text-xs text-zinc-400 mt-0.5 leading-relaxed">
+                  Penne with Fresh Mozzarella, Tomato Cream &amp; Basil
+                </p>
+              </li>
+              <li>
+                <p class="font-medium text-white">Open Bar &amp; Cocktails</p>
+                <p class="text-xs text-zinc-400 mt-0.5 leading-relaxed">
+                  Full bar service featuring wine, beer, and curated cocktails throughout the celebration
+                </p>
               </li>
             </ul>
           </div>
@@ -449,53 +459,61 @@
             </h3>
             <ul class="space-y-3.5 text-sm">
               <li>
-                <p class="font-medium text-white">Celebration Cake</p>
-                <p class="text-xs text-zinc-400 mt-0.5">A sweet centerpiece to celebrate five years together</p>
-              </li>
-              <li>
-                <p class="font-medium text-white">Signature Italian Sweets</p>
-                <p class="text-xs text-zinc-400 mt-0.5">Osteria Via Stato's famous Ricotta Cheesecake &amp; Limoncello</p>
+                <p class="font-medium text-white">Celebration Cake &amp; Ricotta Cheesecake</p>
+                <p class="text-xs text-zinc-400 mt-0.5 leading-relaxed">
+                  Individually plated with seasonal garnish and Chef's Selected Seasonal Cello
+                </p>
               </li>
             </ul>
           </div>
         </div>
 
-        <!-- Right Column: Entree Selections -->
-        <div class="space-y-6">
+        <!-- Right Column: Exact Entrée Selections -->
+        <div class="space-y-5">
           <div>
             <h3 class="font-serif text-2xl text-amber-200 border-b hairline-gold pb-2 mb-4">
-              Entrée Selections
+              Secondi (Choice of One)
             </h3>
             <p class="text-xs text-zinc-400 mb-4 leading-relaxed">
-              Guests will select their preferred entrée at the table. Classic Osteria Via Stato options include:
+              Individually plated entrées served alongside Seasonal Market Vegetables &amp; Crispy Calabrian Potatoes:
             </p>
-            <ul class="space-y-4 text-sm">
+            <ul class="space-y-3 text-sm">
               <li class="p-3.5 rounded-xl bg-[#0e0e13] border border-zinc-800/80">
-                <div class="flex items-center justify-between">
-                  <span class="font-medium text-white">Handmade Italian Pasta</span>
-                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80">Vegetarian Option</span>
+                <div class="flex items-center justify-between gap-2">
+                  <span class="font-medium text-white">Pan Roasted Faroe Island Salmon</span>
+                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80 shrink-0">Seafood</span>
                 </div>
-                <p class="text-xs text-zinc-400 mt-1">Fresh seasonal house-made pasta finished with artisanal Italian cheeses and herbs.</p>
+                <p class="text-xs text-zinc-400 mt-1">Chef's Seasonal Preparation</p>
               </li>
+
               <li class="p-3.5 rounded-xl bg-[#0e0e13] border border-zinc-800/80">
-                <div class="flex items-center justify-between">
-                  <span class="font-medium text-white">Herb-Roasted Chicken or Sea Bass</span>
-                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80">Chef's Specialty</span>
+                <div class="flex items-center justify-between gap-2">
+                  <span class="font-medium text-white">Chicken Mario</span>
+                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80 shrink-0">Poultry</span>
                 </div>
-                <p class="text-xs text-zinc-400 mt-1">Wood-fired seasonal poultry or fresh-caught fish paired with roasted vegetables.</p>
+                <p class="text-xs text-zinc-400 mt-1">Inspired by Chef Mario of Sostanza in Florence</p>
               </li>
+
               <li class="p-3.5 rounded-xl bg-[#0e0e13] border border-zinc-800/80">
-                <div class="flex items-center justify-between">
-                  <span class="font-medium text-white">Braised Beef / Prime Cut</span>
-                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80">House Favorite</span>
+                <div class="flex items-center justify-between gap-2">
+                  <span class="font-medium text-white">Gorgonzola-Crusted Filet Mignon</span>
+                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80 shrink-0">Steak</span>
                 </div>
-                <p class="text-xs text-zinc-400 mt-1">Slow-braised or grilled tender beef served with classic Italian accompaniments.</p>
+                <p class="text-xs text-zinc-400 mt-1">Tender filet mignon finished with rich Gorgonzola crust</p>
+              </li>
+
+              <li class="p-3.5 rounded-xl bg-[#0e0e13] border border-zinc-800/80">
+                <div class="flex items-center justify-between gap-2">
+                  <span class="font-medium text-white">Vegetarian Ricotta Cavatelli</span>
+                  <span class="text-[10px] uppercase tracking-widest text-amber-300/80 shrink-0">Vegetarian</span>
+                </div>
+                <p class="text-xs text-zinc-400 mt-1">Roasted Tomatoes, Spinach &amp; Parmesan</p>
               </li>
             </ul>
           </div>
 
           <div class="p-4 rounded-xl bg-amber-500/5 border hairline-gold text-xs text-zinc-300 leading-relaxed">
-            <strong class="text-amber-300">Dietary Restrictions?</strong> Please let Aviance know ahead of time—Osteria Via Stato gladly accommodates gluten-free, vegetarian, vegan, and allergy-friendly meals.
+            <strong class="text-amber-300">Dietary Needs?</strong> Please let Aviance know ahead of time—Osteria Via Stato gladly accommodates allergies and dietary preferences.
           </div>
         </div>
       </div>
@@ -694,7 +712,7 @@
       }, 2800);
     }
 
-    // 4. Safe Copy-to-Clipboard Helper (Works on GitHub Pages & iFrames)
+    // 4. Safe Copy-to-Clipboard Helper
     function copyText(text, successMsg) {
       try {
         const tempInput = document.createElement('textarea');
